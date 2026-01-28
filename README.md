@@ -1,16 +1,47 @@
-# profile_picker
+# Profile Picker
 
-A new Flutter project.
+A Flutter application showcasing a modern, responsive profile interface with image selection capabilities.
+
+## Features
+
+- **Modern UI:** Clean and responsive design using Flutter's Material widgets.
+- **Profile Management:** Displays user profile details (Name, Role, Profile Picture).
+- **Photo Gallery:** Grid layout showcasing available profile photo options.
+- **Update Logic:** Interactive bottom sheet for updating the profile picture with user feedback.
+
+## Tech Stack
+
+- **Framework:** Flutter
+- **Language:** Dart
+- **State Management:** Stateless Widgets (Clean Architecture)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/profile_picker.git
+    ```
+2.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+3.  **Run the app:**
+    ```bash
+    flutter run
+    ```
+4.  **Run tests:**
+    ```bash
+    flutter test
+    ```
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `lib/pages/`: Contains the main screens (e.g., `HomePage`).
+- `lib/widgets/`: Contains reusable UI components (`ProfileHeader`, `PhotoGrid`, `UpdatePhotoSheet`).
+- `lib/theme.dart`: Centralized theme configuration.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+<div align="center">
+  <img src="screenshots/mobile_profile.png" width="300" alt="Mobile Profile" />
+</div>
