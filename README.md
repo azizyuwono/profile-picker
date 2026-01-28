@@ -42,4 +42,4 @@ A Flutter application showcasing a modern, responsive profile interface with ima
 
 ## Screenshots
 
-*(Add screenshots here)*
+![Mobile Profile](screenshots/mobile_profile.png)
