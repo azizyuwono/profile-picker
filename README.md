@@ -42,4 +42,6 @@ A Flutter application showcasing a modern, responsive profile interface with ima
 
 ## Screenshots
 
-![Mobile Profile](screenshots/mobile_profile.png)
+<div align="center">
+  <img src="screenshots/mobile_profile.png" width="300" alt="Mobile Profile" />
+</div>

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PhotoGrid extends StatelessWidget {
-  const PhotoGrid({Key? key}) : super(key: key);
+  const PhotoGrid({super.key});
 
   @override
   Widget build(BuildContext context) {

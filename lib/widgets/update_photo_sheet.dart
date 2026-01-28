@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../theme.dart';
 
 class UpdatePhotoSheet extends StatelessWidget {
-  const UpdatePhotoSheet({Key? key}) : super(key: key);
+  const UpdatePhotoSheet({super.key});
 
   @override
   Widget build(BuildContext context) {

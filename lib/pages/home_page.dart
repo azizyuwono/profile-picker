@@ -7,7 +7,7 @@ import '../widgets/photo_grid.dart';
 import '../widgets/update_photo_sheet.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
